@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.browser {
+    width: 80%;
+    height: 90%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    display: flex;
+    padding: 10px;
+    background: #eaeaea;
+    border-bottom: 2px solid #ccc;
+}
+
+.toolbar input {
+    flex: 1;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.toolbar button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+iframe#display {
+    flex: 1;
+    border: none;
+}
